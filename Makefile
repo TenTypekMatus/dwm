@@ -47,5 +47,6 @@ install: all
 uninstall:
 	rm -f ${DESTDIR}${PREFIX}/bin/dwm\
 		${DESTDIR}${MANPREFIX}/man1/dwm.1
+	rm config.h
 
 .PHONY: all options clean dist install uninstall
