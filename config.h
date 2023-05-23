@@ -1,17 +1,17 @@
 /* See LICENSE file for copyright and license details. */
 
 /* appearance */
-static const unsigned int borderpx  = 1;        /* border pixel of windows */
+static const unsigned int borderpx  = 2;        /* border pixel of windows */
 static const unsigned int snap      = 32;       /* snap pixel */
 static const int showbar            = 1;        /* 0 means no bar */
 static const int topbar             = 1;        /* 0 means bottom bar */
 static const char *fonts[]          = { "Agave Nerd Font:style=Bold:size=10" };
 static const char dmenufont[]       = ":Agave Nerd Font:style=Boldsize=10";
 static const char col_gray1[]       = "#2E3440";
-static const char col_gray2[]       = "#3B4252";
-static const char col_gray3[]       = "#434C5E";
-static const char col_gray4[]       = "#fff";
-static const char col_cyan[]        = "#81A1C1";
+static const char col_gray2[]       = "#2E3440";
+static const char col_gray3[]       = "#D8DEE9";
+static const char col_gray4[]       = "#88C0D0";
+static const char col_cyan[]        = "#5E81AC";
 static const char *colors[][3]      = {
 	/*               fg         bg         border   */
 	[SchemeNorm] = { col_gray3, col_gray1, col_gray2 },
